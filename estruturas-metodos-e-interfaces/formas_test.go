@@ -18,9 +18,9 @@ func TestArea(t *testing.T) {
 	}
 
 	for _, tc := range tests {
-		t.Run(tc.name, func(tt *testing.T) {
+		t.Run(tc.name, func(t *testing.T) {
 			got := tc.input.Area()
-			require.Equal(tt, tc.want, got)
+			require.Equal(t, tc.want, got)
 		})
 	}
 }
