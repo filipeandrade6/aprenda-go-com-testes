@@ -1,4 +1,4 @@
-package contador
+package sync
 
 import (
 	"sync"
